@@ -31,7 +31,7 @@ Then(/^verify user should see the available flights$/) do
   # on(CheapoairFlightResultPage).verify_flights_displayed?
   actual_value = on(CheapoairFlightResultPage).get_flight_result_header
   sleep 1
-  on(CheapoairFlightResultPage).verify_expected_value_exits? actual_value , 'results found'
+  on(CheapoairFlightResultPage).verify_flights_displayed?
 
 
 #   rspec method
