@@ -1,5 +1,5 @@
 Feature: Cheapoair Flight Search Functionality
-
+@smoke
 #  Imperative Style
   Scenario: verify user is able to search for the available flights for a future date
     Given user is on the home page

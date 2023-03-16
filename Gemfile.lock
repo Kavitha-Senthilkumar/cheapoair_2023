@@ -72,6 +72,7 @@ GEM
       regexp_parser (>= 1.2, < 3)
       selenium-webdriver (~> 4.2)
     websocket (1.2.9)
+    yaml (0.2.0)
     yml_reader (0.7)
 
 PLATFORMS
@@ -84,6 +85,7 @@ DEPENDENCIES
   page-object (~> 2.0)
   rake
   rspec
+  yaml
 
 BUNDLED WITH
    2.4.7
